@@ -1,0 +1,178 @@
+/*---------  ШРИФТЫ  ------------*/
+.logo p, .logo span {
+    font: bold 14px Roboto;
+    text-transform: uppercase;
+}
+nav ul li {
+    font: 500 18px Roboto;
+}
+.phone_header p {
+    font: 900 24px Roboto;
+}
+.phone_header p span {
+    font: 900 18px Roboto;
+}
+.phone_header a {
+    font-size: 15px;
+}
+header h1 {
+    font: 900 60px Roboto;
+}
+header h1 span {
+    font: 400 40px Roboto;
+}
+.header_p {
+    font: 400 20px Roboto;
+}
+.header_button {
+    font: 500 13px Roboto;
+}
+.advantages h2, .body_h2 {
+    font: 900 40px Roboto;
+}
+.advantages p {
+    font: 400 18px Roboto;
+}
+.why_we h3 {
+    font: 500 28px Roboto;
+}
+.why_we p {
+    font: 300 18px Roboto;
+}
+/*---------  ШАПКА  ------------*/
+header {
+    background: url(../img/header_bg.jpg) center top #3079d4;
+    padding-bottom: 227px;
+    background-size: cover;
+}
+.logo img {
+    float: left;
+    margin-top: 20px;
+}
+.logo p {
+    float: left;
+    padding-top: 21px;
+    margin-left: 5px;
+    color: white;
+}
+nav ul {
+    margin-top: 25px;
+}
+nav ul a {
+    float: left;
+    margin-right: 24px;
+    color: white;
+}
+nav ul li:last-child a {
+    margin-right: 0;
+}
+.phone_header {
+    float: right;
+}
+.phone_header p {
+    padding: 10px 0 0 0;
+    margin: 0;
+    color: white;
+}
+.phone_header a {
+    position: relative;
+    top: -4px;
+    margin-left: 2px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.phone_header a:hover {
+    border-bottom-color: blue;
+}
+header h1 {
+    margin: 100px 0 0 0;
+    color: white;
+    letter-spacing: 1.1px;
+    position: relative;
+    left: -3px;
+}
+header h1 span {
+    letter-spacing: 0px;
+    position: relative;
+    top: -20px;
+    left: 3px;
+}
+.header_p {
+    color: white;
+    margin: -10px 0 44px 0;
+}
+.header_button {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    background-color: #ff2b2b;
+    border: 1px solid #ff2b2b;
+    border-radius: 25px;
+    padding: 19px 36px 18px 36px;
+}
+.header_button:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #d52424;
+}
+.advantages {
+    background: white;
+    margin-top: -80px;
+    padding-bottom: 35px;
+    border: 1px solid #f2f2f2;
+    border-bottom: 3px solid #f2f2f2; 
+}
+.advantages h2 {
+    color: #ff3636;
+    margin: 43px 0 0 0;
+}
+.advantages p {
+    margin-top: 8px;
+    color: #353535;
+    line-height: 24px;
+}
+ .advantages_one {
+    margin-left: 100px;
+}
+.advantages_three {
+    margin-left: 45px;
+}
+.advantages_four {
+    margin-left: 3px;
+}
+/*---------  ПОЧЕМУ К НАМ  ------------*/
+.body_h2 {
+    text-align: center;
+    color: 232323;
+    margin: 75px 0 70px 0;
+}
+.why_we img {
+    display: block;
+    margin: 0 auto;
+}
+.why_we h3 {
+    margin: 30px 0 15px 0;
+    text-align: center;
+}
+.why_we p {
+    text-align: center;
+    line-height: 24px;
+}
+.why_we_two {
+    margin: 45px 0 145px 0;
+}
+/*---------  БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ  ------------*/
+.consultation {
+    background: url(../img/consultation_bg.jpg) center top #3079d4;
+    background-size: cover;
+}
+.consultation h2 {
+    margin-top: 60px;
+}
+.consultation_bg {
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    border-top: 3px solid #f2f2f2;
+    position: relative;
+    top: -90px;
+}

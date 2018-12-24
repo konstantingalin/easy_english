@@ -24,7 +24,7 @@ header h1 span {
 .header_p {
     font: 400 20px Roboto;
 }
-.header_button {
+.header_button, .consultation input[type = submit] {
     font: 500 13px Roboto;
 }
 .advantages h2, .body_h2 {
@@ -38,6 +38,9 @@ header h1 span {
 }
 .why_we p {
     font: 300 18px Roboto;
+}
+.consultation_form_name, .consultation_form_phone {
+    font: 300 20px Roboto;
 }
 /*---------  ШАПКА  ------------*/
 header {
@@ -175,4 +178,39 @@ header h1 span {
     border-top: 3px solid #f2f2f2;
     position: relative;
     top: -90px;
+    padding-bottom: 80px;
+}
+.consultation_form_name,
+.consultation_form_phone {
+    color: #ff2b2b;
+    border: 0px solid black;
+    border-bottom: 2px solid #c3c3c3;
+    background: url(../img/user.png) left 4px no-repeat;
+    padding: 0 0 10px 25px;
+    margin-left: 146px;
+}
+.consultation_form_name::placeholder, .consultation_form_phone::placeholder {
+    color: #ff2b2b;
+}
+.consultation_form_name:focus, 
+.consultation_form_phone:focus,
+.consultation input[type = submit] {
+    outline: none;
+}
+.consultation_form_phone {
+    margin: 0 0 0 -44px;
+    background: url(../img/phone.png) left 5px no-repeat;
+}
+.consultation input[type = submit]{
+    color: white;
+    text-transform: uppercase;
+    padding: 22px 52px;
+    letter-spacing: 1.1px;
+    background-color: #ff2b2b;
+    border: 1px solid #ff2b2b;
+    border-radius: 25px;
+    margin: -25px 0 0 -44px;
+}
+.consultation input[type = submit]:hover {
+    background-color: #d52424;
 }

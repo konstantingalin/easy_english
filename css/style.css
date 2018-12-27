@@ -3,7 +3,8 @@
     font: bold 14px Roboto;
     text-transform: uppercase;
 }
-nav ul li {
+nav ul li,
+.calculator p {
     font: 500 18px Roboto;
 }
 .phone_header p {
@@ -24,10 +25,14 @@ header h1 span {
 .header_p {
     font: 400 20px Roboto;
 }
-.header_button, .consultation input[type = submit] {
+.header_button,
+.consultation input[type = submit],
+.calculator_btn {
     font: 500 13px Roboto;
 }
-.advantages h2, .body_h2 {
+.advantages h2,
+.body_h2,
+.education h2 {
     font: 900 40px Roboto;
 }
 .advantages p {
@@ -36,11 +41,30 @@ header h1 span {
 .why_we h3 {
     font: 500 28px Roboto;
 }
-.why_we p {
+.why_we p, 
+.problems p,
+.how_stud p,
+.who_stud p,
+.feedback p,
+.feedback_fakt_one p,
+.feedback_fakt_two p,
+.feedback_fakt_three p,
+.feedback_slaider a {
     font: 300 18px Roboto;
 }
 .consultation_form_name, .consultation_form_phone {
     font: 300 20px Roboto;
+}
+.problems h4 {
+    font: 900 72px Roboto;
+}
+.problems h3,
+.education h3,
+.feedback h3 {
+    font: 500 30px Roboto;
+}
+.calculator h3 {
+    font: 500 24px Roboto;
 }
 /*---------  ШАПКА  ------------*/
 header {
@@ -194,14 +218,16 @@ header h1 span {
 }
 .consultation_form_name:focus, 
 .consultation_form_phone:focus,
-.consultation input[type = submit] {
+.consultation input[type = submit],
+.calculator_btn {
     outline: none;
 }
 .consultation_form_phone {
     margin: 0 0 0 -44px;
     background: url(../img/phone.png) left 5px no-repeat;
 }
-.consultation input[type = submit]{
+.consultation input[type = submit],
+.calculator_btn {
     color: white;
     text-transform: uppercase;
     padding: 22px 52px;
@@ -211,6 +237,327 @@ header h1 span {
     border-radius: 25px;
     margin: -25px 0 0 -44px;
 }
-.consultation input[type = submit]:hover {
+.consultation input[type = submit]:hover,
+.calculator_btn:hover {
     background-color: #d52424;
+}
+/*---------  РЕШИМ 4 ВАШИ ПРОБЛЕМЫ  ------------*/
+.problems {
+    border-bottom: 2px #ebebeb solid;
+    background: url(../img/bigben.png) 48% 102% no-repeat;
+    padding-bottom: 25px;
+}
+.problems h2 {
+    margin-bottom: 50px;
+}
+.problems h3 {
+    line-height: 36px;
+    color: #232323;
+    margin: 10px 0 15px 0;
+}
+.problems h4 {
+    color: #ff3636;
+    margin-left: -6px;
+}
+.problems p {
+    line-height: 24px;
+    color: #232323 ;
+}
+.problem_one p {
+    margin-right: 60px;
+}
+.problem_two h4 {
+    float: left;
+}
+.problem_two h3 {
+    width: 330px;
+    margin: 0 0 0 105px;
+    position: relative;
+    top: 7px;;
+}
+.problem_two p {
+    clear: both;
+    margin: 7px 30px 0 107px;
+}
+.problem_three {
+    margin: 35px 25px 0 100px;
+}
+.problem_four {
+    margin: -40px 0 0 0;
+}
+/*---------  КТО И КАК ОБУЧАЕТ  ------------*/
+.education {
+    margin: 75px 0 50px 0;
+}
+.education h3 {
+    line-height: 36px;
+    color: #232323;
+}
+.how_stud img {
+    float: left;
+}
+.how_stud_one {
+    margin-top: 70px;
+    margin-right: 50px;
+}
+.how_stud_two,
+.how_stud_three {
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.how_stud h3 {
+    position: relative;
+    top: 10px;
+    margin-left: 100px;
+}
+.how_stud p {
+    color: #232323;
+    line-height: 24px;
+    margin: 25px 0 0 101px;
+}
+.who_stud {
+    padding-left: 30px;
+}
+.who_stud h2 {
+    margin-bottom: 60px;
+}
+.who_stud div {
+    float: left;
+}
+.who_stud h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.who_stud p {
+    line-height: 24px;
+    color: #232323;
+    text-align: center;
+    margin-left 3px;
+}
+.who_stud_xenia {
+    clear: both;
+}
+.who_stud_arnold,
+.who_stud_anton,
+.who_stud_mat,
+.who_stud_evgenia{
+    margin-left: 40px;
+}
+.who_stud_xenia,
+.who_stud_anton,
+.who_stud_evgenia {
+    margin-top: 40px;
+}
+/*---------    ПОДБЕРЕМ ПРОГРАММУ ОБУЧЕНИЯ  ------------*/
+.calculator {
+    margin-top: 50px;
+}
+.calculator_bg_image {
+    background: url(../img/calculator_bg.jpg) center top no-repeat;
+    max-height: 458px;
+    background-size: cover;
+    margin-top: 350px;
+}
+.calculator_bg {
+    background: white;
+    border: 1px solid #f2f2f2;
+    border-top: 3px solid #f2f2f2;
+    position: relative;
+    top: -320px;
+}
+.calculator h3 {
+    line-height: 30px;
+    margin-left: 100px;
+}
+.calculator_day input,
+.calculator_day2 input,
+.calculator_day3 input,
+.education_form input,
+.education_form2 input, 
+.education_form3 input,
+.feedback_slaider input {
+    display: none;
+}
+.calculator_day label,
+.calculator_day2 label,
+.calculator_day3 label,
+.education_form label,
+.education_form2 label,
+.education_form3 label,
+.feedback_slaider label {
+    display: inline-block;
+    margin: 0 0 10px 36px;
+}
+.calculator_day label,
+.education_form label {
+    margin: 0 0 0 118px;
+}
+.calculator_day p {
+    margin: 10px 0 0 80px;
+}
+.education_form p {
+    margin: 10px 0 0 93px;
+}
+.calculator_day2 label,
+.education_form2 label {
+    margin: 0 0 0 54px;
+}
+.education_form2 p {
+    margin: 10px 0 0 33px;
+}
+.calculator_day2 p {
+    margin: 10px 0 0 20px;
+}
+.calculator_day3 label,
+.education_form3 label {
+    margin: 0 0 0 62px;
+}
+.calculator_day3 p {
+    margin: 10px 0 0 42px;
+}
+.education_form3 p {
+    margin: 10px 0 0 22px;
+}
+.calculator_day i,
+.calculator_day2 i,
+.calculator_day3 i,
+.education_form i, 
+.education_form2 i, 
+.education_form3 i,
+.feedback_slaider i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 4px solid #ff3529;
+    border-radius: 50%;
+    position: relative;
+}
+.calculator_day i:before,
+.calculator_day2 i:before,
+.calculator_day3 i:before,
+.education_form i:before,
+.education_form2 i:before,
+.education_form3 i:before,
+.feedback_slaider i:before {
+    content: "";
+    position: absolute;
+    top: 2px; bottom: 2px;
+    left: 2px; right: 2px;
+    background: red;
+    border-radius: 50%;
+    display: none;
+}
+.calculator_day input:checked + i:before,
+.calculator_day2 input:checked + i:before,
+.calculator_day3 input:checked + i:before,
+.education_form input:checked + i:before,
+.education_form2 input:checked + i:before, 
+.education_form3 input:checked + i:before,
+.feedback_slaider input:checked+ i:before {
+    display: block;
+}
+.week {
+    margin: 40px 0 0 85px;
+}
+.education_forms {
+    margin: 40px 0 90px 0;
+}
+.calculator_form {
+    margin: 0 -17px 100px 0;
+}
+.calculator_form_name {
+    margin: 0 0 0 100px;
+}
+.calculator_form_phone {
+    margin: 0 0 0 -70px;
+}
+.calculator_btn {
+    padding: 20px 30px 22px 30px;
+}
+/*---------   ДУМАЕТЕ ОПЯТЬ НЕ ПОЛУЧИТСЯ?  ------------*/
+.feedback h3 {
+    line-height: 36px;
+    margin: 23px 0 15px 0;
+}
+.feedback_fakt_one p {
+    line-height: 22px;
+    margin: 0 65px 30px 0;
+}
+.feedback_fakt_two {
+    margin: 0 40px 30px 0;
+}
+.feedback_fakt_three {
+    margin: 0 0 30px 20px;
+}
+.feedback_fakt_three h3 {
+    margin-right: -20px;
+}
+.feedback_maria {
+    margin-left: 30px;
+}
+.feedback_alex {
+    margin-left: 35px;
+}
+.feedback_maria img,
+.feedback_alex img {
+    float: left;
+}
+.feedback_maria h3,
+.feedback_alex h3 {
+    position: relative;
+    top: 65px;
+    left: 18px
+}
+.feedback_maria h4,
+.feedback_alex h4 {
+    clear: both;
+    margin: 95px 0px 20px 0;
+}
+.feedback_maria h4{
+    margin-right: 150px;
+}
+.feedback_maria p {
+    margin-right: 50px;
+    line-height: 24px;
+}
+.feedback_alex p {
+    margin-right: 50px;
+    line-height: 24px;
+}
+.feedback_slaider {
+    margin: 45px 0 80px 0;
+    text-align: center;
+}
+.feedback_slaider label {
+    margin: 0 0 0 0;
+}
+.feedback_slaider i {
+    border: 2px solid #ff3529;
+}
+.feedback_slaider i:before {
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+}
+.feedback_slaider :nth-child(2) {
+    margin: 0 4px 0 3px;
+}
+.feedback_slaider a:first-child {
+    margin-right: 28px;
+    color: #232323;
+    background: url(../img/arrow_left.png) left 7px no-repeat;
+    padding-left: 28px; 
+}
+.feedback_slaider a:last-child {
+    margin-left: 28px;
+    color: #232323;
+    background: url(../img/arrow_right.png) right 7px no-repeat;
+    padding-right: 28px; 
+}
+.feedback_slaider a {
+    position: relative;
+    top: -4px;
+}
+.feedback_slaider a:hover {
+    color: #ff2b2b;
+    text-decoration: none;
 }

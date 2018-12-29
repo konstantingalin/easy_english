@@ -60,11 +60,16 @@ header h1 span {
 }
 .problems h3,
 .education h3,
-.feedback h3 {
+.feedback h3,
+footer h3 {
     font: 500 30px Roboto;
 }
 .calculator h3 {
     font: 500 24px Roboto;
+}
+footer h3 span,
+.work_time h3 {
+    font: 400 24px Roboto;
 }
 /*---------  ШАПКА  ------------*/
 header {
@@ -227,6 +232,7 @@ header h1 span {
     background: url(../img/phone.png) left 5px no-repeat;
 }
 .consultation input[type = submit],
+.question input[type = submit],
 .calculator_btn {
     color: white;
     text-transform: uppercase;
@@ -238,6 +244,7 @@ header h1 span {
     margin: -25px 0 0 -44px;
 }
 .consultation input[type = submit]:hover,
+.question input[type = submit]:hover,
 .calculator_btn:hover {
     background-color: #d52424;
 }
@@ -560,4 +567,47 @@ header h1 span {
 .feedback_slaider a:hover {
     color: #ff2b2b;
     text-decoration: none;
+}
+/*---------  ОСТАЛИСЬ ВОПРОСЫ?  ------------*/
+.question_bg {
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    border-top: 3px solid #f2f2f2;
+    padding-bottom: 80px;
+}
+.question h2 {
+    margin-top: 60px;
+}
+/*---------  КАРТА  ------------*/
+.map {
+    height: 718px;
+    background: url(../img/map.jpg) center center;
+    background-size: cover;
+    position: relative;
+    z-index: -100;
+    margin-top: -140px;
+}
+/*---------  КОНТАКТЫ  ------------*/
+footer {
+    margin-top: -130px;;
+}
+footer .img_decor  {
+    height: 60px;
+    background: url(../img/footer_decor.png) center -0px no-repeat;
+    position: relative;
+    top: -46px;
+}
+.footer_bg {
+    background-color: white;
+}
+footer .footer_bg h2{
+    margin-top: 0px;
+}
+footer h3 {
+    text-align: center;
+    line-height: 36px;
+    color: #232323;
+}
+.work_time {
+    line-height: 30px;
 }

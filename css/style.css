@@ -589,25 +589,52 @@ header h1 span {
 }
 /*---------  КОНТАКТЫ  ------------*/
 footer {
-    margin-top: -130px;;
+    margin: -190px 0 50px 0;
 }
 footer .img_decor  {
     height: 60px;
-    background: url(../img/footer_decor.png) center -0px no-repeat;
+    background: url(../img/footer_decor.png) center top no-repeat;
     position: relative;
-    top: -46px;
+    top: 14px;
 }
 .footer_bg {
+    padding-top: 60px;
     background-color: white;
+    border: 1px solid #f2f2f2;
+    border-bottom: 3px solid #f2f2f2;
+    border-top: 0;
 }
 footer .footer_bg h2{
-    margin-top: 0px;
+    margin: 0 0 50px 0;
 }
 footer h3 {
     text-align: center;
     line-height: 36px;
     color: #232323;
 }
+.work_addres {
+    margin-left: 15px;
+}
 .work_time {
+    margin: 7px 30px 0 0;
+}
+.work_time h3 {
     line-height: 30px;
+}
+.work_email {
+    margin-right: 50px;
+}
+.socials {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    background: url(../img/line_decor.jpg) left center no-repeat,
+                url(../img/line_decor.jpg) right center no-repeat;
+    background-size: 33%;
+    margin: 50px;
+}
+.socials a {
+    margin: 0 0 0 20px;
+}
+.socials a:nth-child(1)  {
+    margin: 0;
 }

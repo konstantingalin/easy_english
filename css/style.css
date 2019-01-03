@@ -817,6 +817,12 @@ body {
     .feedback_slaider a:last-child {
         background-position: right 4px;
     }
+     .feedback_slaider a:first-child:hover {
+        background-position: left -14px;
+    }
+    .feedback_slaider a:last-child:hover {
+        background-position: right -14px;
+    }
     footer h3 {
         line-height: 28px;
         font-size: 22px;

@@ -92,11 +92,15 @@ nav ul {
 }
 nav ul a {
     float: left;
-    margin-right: 24px;
+    margin-right: 3.8%;
     color: white;
 }
 nav ul li:last-child a {
     margin-right: 0;
+}
+nav ul a:hover {
+    text-decoration: none;
+    color: #ff2b2b;
 }
 .phone_header {
     float: right;
@@ -114,7 +118,8 @@ nav ul li:last-child a {
     color: white;
 }
 .phone_header a:hover {
-    border-bottom-color: blue;
+    color: #ff2b2b;
+    border-bottom-color: #ff2b2b;
 }
 header h1 {
     margin: 100px 0 0 0;
@@ -164,13 +169,13 @@ header h1 span {
     line-height: 24px;
 }
  .advantages_one {
-    margin-left: 100px;
+    margin-left: 28%;
 }
 .advantages_three {
-    margin-left: 45px;
+    margin-left: 18%;
 }
 .advantages_four {
-    margin-left: 3px;
+    margin-left: 1%;
 }
 /*---------  ПОЧЕМУ К НАМ  ------------*/
 .body_h2 {
@@ -481,20 +486,40 @@ header h1 span {
 .calculator_btn {
     padding: 20px 30px 22px 30px;
 }
+/*---------  Range Input  ----------------*/
+.range label input {
+    outline: none; 
+    -webkit-appearance: none;
+    width: 396%;
+    height: 4px;
+    background-color: #ff3529;    
+}
+.range label input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 8px solid #ff3529;
+    background: white;
+    border-radius: 50%; 
+    width: 26px;
+    height: 26px;
+}
+#numb_range {
+    margin: 0 0 5px 0.8%;
+    font: 600 23px Roboto;
+    color: #3b3b3b;
+}
 /*---------   ДУМАЕТЕ ОПЯТЬ НЕ ПОЛУЧИТСЯ?  ------------*/
 .feedback h3 {
     line-height: 36px;
     margin: 23px 0 15px 0;
 }
 .feedback_fakt_one p {
-    line-height: 22px;
-    margin: 0 65px 30px 0;
+    margin: 0 9% 30px 0;
 }
 .feedback_fakt_two {
-    margin: 0 40px 30px 0;
+    margin: 0 3% 30px 0;
 }
 .feedback_fakt_three {
-    margin: 0 0 30px 20px;
+    margin: 0 0 30px 1%;
 }
 .feedback_fakt_three h3 {
     margin-right: -20px;
@@ -554,11 +579,17 @@ header h1 span {
     background: url(../img/arrow_left.png) left 7px no-repeat;
     padding-left: 28px; 
 }
+.feedback_slaider a:first-child:hover {
+    background-position: left -11px;
+}
 .feedback_slaider a:last-child {
     margin-left: 28px;
     color: #232323;
     background: url(../img/arrow_right.png) right 7px no-repeat;
     padding-right: 28px; 
+}
+.feedback_slaider a:last-child:hover {
+    background-position: right -11px;
 }
 .feedback_slaider a {
     position: relative;
@@ -637,4 +668,162 @@ footer h3 {
 }
 .socials a:nth-child(1)  {
     margin: 0;
+}
+/*-------- Медиазапросы -------------*/
+body {
+    overflow: hidden;
+}
+@media screen and (max-width: 1199px){
+    .body_h2 {
+        margin: 50px 0 50px 0;
+        font-size: 36px;
+    }
+    .range label input {
+        width: 336%;
+    }
+    body h1 {
+        font-size: 50px;
+    }
+    body h1 span {
+        top: -18px;
+        font-size: 30px;
+    }
+    .header_p {
+        line-height: 24px;
+        font-size: 17px;
+    }
+    .header_button {
+        font-size: 12px;
+    }
+    .logo p {
+        line-height: 15px;
+        font-size: 12px;
+        margin-top: 1px;
+    }
+    nav ul a {
+        font-size: 16px;
+        margin-right: 2.5%;
+    }
+    nav ul li:last-child a {
+        margin-right: 0;
+    }
+    .phone_header p {
+        font-size: 20px;
+    }
+    .phone_header p span {
+        font-size: 16px;
+    }
+    .phone_header a {
+        font-size: 13px;
+    }
+    .advantages p {
+        line-height: 23px;
+        font-size: 16px;
+    }
+    .advantages_one {
+        margin-left: 23%;
+    }
+    .advantages_two {
+        margin-left: -10%;
+    }
+    .advantages_three {
+        margin-left: 15%;
+    }
+    .advantages_four {
+        margin-left: 1%;
+    }
+    .why_we h3,
+    .problems h3,
+    .education h3,
+    .calculator h3,
+    .feedback h3 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .why_we p,
+    .problems p,
+    .education p,
+    .feedback p {
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .problem_two h3 {
+        top: 15px;
+    }
+    .education h2 {
+        margin: -20px 0 50px 0;
+        font-size: 36px;
+    }
+    .how_stud {
+        margin-right: 60px;
+    }
+    .who_stud_john {
+        clear: right;
+    }
+    .who_stud_arnold {
+        clear: right;
+        float: left;
+        margin: 0 0 0 60px;
+    }
+    .who_stud_mat {
+        clear: left;
+        float: left;
+        margin: 10px 0 0 0;
+    }
+    .who_stud_xenia {
+        clear: right;
+        float: left;
+        margin: 10px 0 0 63px;
+    }
+    .who_stud_anton {
+        margin: 10px 0 0 0;
+    }
+    .who_stud_evgenia {
+        margin: 10px 0 0 64px;
+    }
+    .consultation_form_name {
+        margin-left: 30%;
+        font-size: 17px;
+    }
+    .consultation_form_phone {
+        margin-left: -20%;
+        font-size: 17px;
+    }
+    .consultation input[type = submit] {
+        margin-left: -13%;
+        font-size: 12px;
+    }
+    .calculator h3 {
+        margin-left: 80px;
+    }
+    .calculator_form_name {
+        margin-left: 22%;
+    }
+    .calculator_form_phone {
+        margin-left: -27%;
+    }
+    .feedback h4 {
+        font-size: 20px;
+    }
+    .feedback_maria h4 {
+        margin-right: 30%;
+    }
+    .feedback_slaider a {
+        font-size: 16px;   
+    }
+    .feedback_slaider a:first-child {
+        background-position: left 4px;
+    }
+    .feedback_slaider a:last-child {
+        background-position: right 4px;
+    }
+    footer h3 {
+        line-height: 28px;
+        font-size: 22px;
+    }
+    footer h3 span,
+    .work_time h3 {
+        line-height: 24px;
+        font-size: 18px;
+    }
 }

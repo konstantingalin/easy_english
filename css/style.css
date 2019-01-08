@@ -833,3 +833,513 @@ body {
         font-size: 18px;
     }
 }
+@media screen and (max-width: 991px) {
+    .logo a img {
+        width: 24px;
+        margin-top: 21px;
+    }
+    .logo a p {
+        font-size: 11px;
+        line-height: 14px
+    }
+    header nav a {
+        font-size: 12px;
+    }
+    header nav a {
+        margin-right: 2.5%;
+    }
+    header nav li:last-child {
+        margin: 0;
+    }
+    .phone_header {
+        margin-top: 6px;
+    }
+    .phone_header p {
+        font-size: 16px;
+    }
+    .phone_header p span {
+        font-size: 14px;
+    }
+    .phone_header a {
+        font-size: 10px;
+        top: -7px
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header h1 span {
+        font-size: 22px;
+        top: -15px;
+    }
+    .header_p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .header_button {
+        margin: 0;
+    }
+    .advantages {
+        padding-bottom: 30px;
+    }
+    .advantages h2 {
+        margin: 25px 0 5px 0;
+        font-size: 32px;
+    }
+    .advantages p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0;
+    }
+    .advantages_one {
+        margin-left: 30px;
+        margin-right: -40px;
+    }
+    .advantages_one br {
+        display: none;
+    }
+    .advantages_two {
+        margin-left: 20px;
+        position: relative;
+        left: 15px;
+    }
+    .advantages_three {
+        margin-left: 10px;
+    }
+    .advantages_four {
+        position: relative;
+        right: 10px;
+    }
+    .body_h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin: 40px 0 40px 0;
+    }
+    .why_we h3 {
+        line-height: 24px;
+        font-size: 20px;
+        margin: 15px 0 10px 0;
+    }
+    .why_we img {
+        width: 45px;
+    }
+    .why_we_two {
+        margin-top: 10px;
+    }
+    .consultation h2 {
+        margin: 40px 140px;
+    }
+    .consultation_form_name,
+    .consultation_form_phone {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .consultation_form_name {
+        margin: 0;
+        float: right;
+    }
+    .consultation_form_phone {
+        margin: 0 0 0 0;
+    }
+    .consultation input[type = submit] {
+        font-size: 11px;
+        margin: 30px 34% 0 34%;
+    }
+    .consultation_bg {
+        padding-bottom: 60px;
+    }
+    .problems h2 {
+        margin-bottom: 30px;
+    }
+    .problems h4 {
+        font-size: 45px;
+    }
+    .problems h3 {
+        font-size: 20px;
+        line-height: 24px
+    }
+    .problem_one p {
+        margin-right: 30px;
+    }
+    .problem_two h4 {
+        float: none;
+    }
+    .problem_two h3 {
+        width: 100%;
+        margin: -13px 0 30px 0;
+    }
+    .problem_two p {
+        margin: 0;
+    }
+    .problem_three {
+        margin: 20px 20px 0 0;
+    }
+    .problem_four {
+        margin-top: 20px;
+    }
+    .problems {
+        padding-bottom: 40px
+    }
+    .education {
+        margin: 0;
+    }
+    .education h2 {
+        font-size: 30px;
+        margin: 40px 0;
+    }
+    .how_stud img {
+        width: 45px;
+    }
+    .how_stud h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 0 60px;
+        top: 0px;
+    }
+    .how_stud p  {
+        margin: 15px 0 0 61px;
+    }
+    .how_stud_one {
+        margin: 0;
+    }
+    .how_stud_one h3 {
+        margin-right: -20px
+    }
+    .who_stud img {
+        width: 100px
+    }
+    .who_stud h3 {
+        margin: 10px 0 5px 0;
+    }
+    .who_stud p {
+        line-height: 18px
+    }
+    .who_stud_xenia h3,
+    .who_stud_xenia p {
+        margin-left: -6px;
+    }
+    .who_stud_evgenia {
+        margin-left: 75px;
+    }
+    .calculator_bg {
+        padding: 0 50px;
+    }
+    .calculator h3 br {
+        display: none;
+    }
+    .calculator h3,
+    .calculator p,
+    .calculator input {
+        margin: 0;
+    }
+    .calculator_day,
+    .calculator_day2,
+    .calculator_day3 {
+        margin-bottom: 40px;
+    }
+    .calculator_day label {
+        margin: 20px 0 5px 37px;
+    }
+    .calculator_day2 label {
+        margin: 20px 0 5px 34px;
+    }
+    .calculator_day3 label {
+        margin: 20px 0 5px 21px;
+    }
+    .week {
+        margin: 0;
+    }
+    .range {
+        margin: 20px 0 30px 0;
+    }
+    #numb_range {
+        font-size: 18px;
+        margin-left: 6px
+    }
+    .education_forms {
+        margin: 10px 0 40px 10;
+    }
+    .education_form label {
+        margin: 20px 0 5px 37px;
+    }    
+    .education_form p {
+        margin-left: 13px;
+    }
+    .education_form2 label {
+        margin: 20px 0 5px 34px;
+    }
+    .education_form2 p {
+        margin-left: 14px;
+    }
+    .education_form3 label {
+        margin: 20px 0 5px 22px;
+    }
+    .education_form3 p {
+        margin-left: -16px;
+    }
+    .calculator_form input[type = text] {
+        margin: 0 0 0 0;
+        float: left;
+    }
+    .calculator_form_phone {
+        position: relative;
+        left: 20px;
+    }
+    .calculator_form [type = submit] {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .calculator_form {
+        margin-bottom: 60px;
+    }
+    .feedback img {
+        width: 90px;
+    }
+    .feedback_fakt_one,
+    .feedback_fakt_two,
+    .feedback_fakt_three {
+        text-align: center;
+        margin: 0;
+    }
+    .feedback_fakt_one p,
+    .feedback_fakt_two p,
+    .feedback_fakt_three p{
+        margin: 0 0 30px 0;
+    }
+    .feedback_fakt_one img,
+    .feedback_fakt_two img,
+    .feedback_fakt_three img {
+        width: 45px;
+    }
+    .feedback_fakt_one h3,
+    .feedback_fakt_two h3,
+    .feedback_fakt_three h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin:  15px 0 10px 0;
+    }
+    .feedback_alex,
+    .feedback_alex h3,
+    .feedback_alex h4,
+    .feedback_alex img,
+    .feedback_alex p,
+    .feedback_maria,
+    .feedback_maria h3,
+    .feedback_maria h4,
+    .feedback_maria img,
+    .feedback_maria p {
+        margin: 0;
+    }
+    .feedback_alex h3,
+    .feedback_maria h3 {
+        top: 33px;
+        clear: right;
+        margin-top: 10px;
+    }
+    .feedback_alex h4,
+    .feedback_maria h4 {
+        margin: 45px 0 15px 0;
+    }
+    .feedback_slaider {
+        margin: 35px 0 60px 0;
+    }
+    .question_bg {
+        padding-bottom: 60px;
+    }
+    .question h2 {
+        margin: 40px 0 40px 0;
+    }
+    .question input[type=submit] {
+        margin: 20px 0 0 228px;
+        font-size: 10px;
+    }
+    .footer_bg {
+        padding-top: 40px;
+    }
+    .footer_h2 {
+        margin-bottom: -40px;
+    }
+    .work_addres,
+    .work_time, 
+    .work_email {
+        margin: 20px 0 0 0;
+    }
+    .socials {
+        margin: 30px 40px 40px 40px;
+        background-size: 27%;
+    }
+    .socials a img {
+        width: 35px;
+    }
+    .socials a {
+        margin: 0 0 0 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    header nav {
+        display: none;
+    }
+    .phone_header p {
+        float: left;
+        margin: 10px 20px 0 0;
+    }
+    .phone_header a {
+        border: 1px solid #ff2b2b;
+        border-radius: 25px;
+        background-color: #ff2b2b;
+        font-size: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 13px 22px;
+        position: relative;
+        top: 13px;
+    }
+    .phone_header a:hover {
+        color: white;
+        text-decoration: none;
+        background-color: #d52424;
+    }
+    header {
+        background-position: 3% top;
+        padding-bottom: 200px
+    }
+    header h1 {
+        margin-top: 60px;
+    }
+    .hidden {
+        display: none;
+    }
+    .advantages_one,
+    .advantages_two,
+    .advantages_three,
+    .advantages_four {
+        margin: 0;
+        text-align: center;
+        position: static;
+    }
+    .advantages_one,
+    .advantages_three {
+        margin-left: 30%;
+    }
+    .advantages_two,
+    .advantages_four {
+        margin-right: 30%;
+    }
+    .consultation h2 {
+        margin: 40px 40px;
+    }
+    .problems {
+        background-position: 86% bottom;
+    }
+    .who_stud_mat {
+        margin: 0 0 0 60px;
+        clear: right;
+    }
+    .who_stud_xenia {
+        margin: 20px 0 0 0;
+        clear: left;
+    }
+    .who_stud_anton {
+        margin: 20px 0 0 60px;
+    }
+    .who_stud_evgenia {
+        margin: 20px 0 0 67px;
+    }
+    .range {
+        width: 26%;
+    }
+    .education_form,
+    .education_form2,
+    .education_form3 {
+        margin: -40px 0 -40px 0;
+        padding: 0;
+    }
+    .feedback_slaider {
+        margin: 30px 0;
+    }
+    .feedback_maria h4 {
+        margin-right: 160px;
+    }
+    .feedback_slaider a {
+        font-size: 14px;
+    }
+    .question input[type = submit] {
+        margin-left: 30%;   
+    }
+}
+@media screen and (max-width: 575px) {
+    .logo a img {
+        width: 20px;
+        margin-top: 26px
+    }
+    .logo a p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 4px
+    }
+    .phone_header p {
+        font-size: 14px;
+        margin-right: 12px;
+    }
+    .phone_header a {
+        font-size: 6px 
+    }
+    .phone_header p span {
+        font-size: 11px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    header h1 span {
+        top: -6px;
+        font-size: 20px;
+    }
+    .header_p {
+        margin-top: 6px;
+    }
+    .header_button {
+        font-size: 8px;
+    }
+    .advantages_one,
+    .advantages_three {
+        margin-left: 10%;
+    }
+    .advantages_two,
+    .advantages_four {
+        margin-right: 10%;
+    }
+    .consultation_form_name,
+    .consultation_form_phone {
+        font-size: 13px;
+    }
+    .consultation input[type=submit] {
+        margin-left: 22%;
+    }
+    .problems  {
+        background: none;
+    }
+    .who_stud_arnold { 
+        clear: right;
+    }
+    .who_stud_mat {
+        clear: left;
+        margin: 0; 
+    }
+    .who_stud_xenia {
+        clear:inherit;
+        margin: 0 0 0 60px;
+        float: left;
+    }
+    .who_stud_anton {
+        margin: 0;
+    }
+    .hidden_sm {
+        display: none;
+    }
+    .feedback_slaider a span {
+        display: none;
+    }
+    .question input[type=submit] {
+        margin-left: 22%;
+    }
+}
